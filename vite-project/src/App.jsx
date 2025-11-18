@@ -1,11 +1,14 @@
-
-import React from 'react';
-import WellnessScore from './pages/WellnessScore/WellnessScore.jsx'; 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WeellnessScore from './pages/WellnessScore/WellnessScore'
 
 function App() {
   return (
-    // Renderiza a página principal que contém a Sidebar, Header e Cards
-    <WellnessScore />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<WeellnessScore />} />
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 

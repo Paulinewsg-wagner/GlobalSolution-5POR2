@@ -1,0 +1,23 @@
+{
+  "name": "globalsolution-5por2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulinewsg-wagner/GlobalSolution-5POR2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulinewsg-wagner/GlobalSolution-5POR2/issues"
+  },
+  "homepage": "https://github.com/Paulinewsg-wagner/GlobalSolution-5POR2#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
